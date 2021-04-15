@@ -15,3 +15,4 @@ func _ready():
 	player2.set_network_master(Global.player2id)
 	player2.global_transform = player2pos.global_transform
 	add_child(player2)
+
